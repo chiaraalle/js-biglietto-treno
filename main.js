@@ -7,9 +7,15 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 
 //Fase 1 creare le due variabili (età passeggero e chilometri da percorrere)
 
-let numeroChilometri = parseInt( prompt("Quanti chilometri vuoi percorrere?") );
-let numeroEtà = parseInt( prompt("Quanti anni hai?") );
-const prezzoBigliettoAlChilometro= 0.20;
+let numeroChilometri = prompt("Quanti chilometri vuoi percorrere?"); 
+/*if(isNaN (numeroChilometri)) {
+    console.log (`è una stringa`)
+    let numeroChilometri = prompt("Quanti chilometri vuoi percorrere?");
+} else {
+    console.log (`non è una stringa`)
+}*/
+let numeroEtà = prompt("Quanti anni hai?") ;
+const prezzoBigliettoAlChilometro= 0.21;
 
 //Fase 2 Elaborazione dei dati e output: calcolare il prezzo totale del viaggio in base ai chilometri e all'età
 
